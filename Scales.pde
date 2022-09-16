@@ -22,7 +22,7 @@ void draw(){
       offsetVal = 0;
       offset = true;
     }
-    for(int i = -50 + offsetVal + (int)(Math.random()*6); i <= 750; i += 50)
+    for(int i = -50 + offsetVal + (int)(Math.random()*4); i <= 750; i += 50)
     {
 
       scale(i, j);
