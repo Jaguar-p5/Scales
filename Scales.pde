@@ -4,9 +4,9 @@ public void setup(){
 }
 float xScalar = 0.2;
 float yScalar = 0.3;
-float r = 30;
-float b = 40;
-float g = 80;
+float r = 40;
+float b = 75;
+float g = 100;
 
 
 void draw(){
@@ -34,9 +34,10 @@ void draw(){
 
 void scale(int x, int y){
   b += 0.2 ;
-  b *= 1.00225;
+  b *= 1.00165;
   g += 0.02;
   g *= 1.0005;
+  
 
   fill(r, g, b);
   beginShape();
